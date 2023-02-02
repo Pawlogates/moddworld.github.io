@@ -1,7 +1,3 @@
-
-
-
-
 $(function(){
     $('.divtop').on('click', function(){
     $('.odd').toggleClass('odd_on');
