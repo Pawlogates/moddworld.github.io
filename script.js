@@ -1,6 +1,20 @@
 
 $(function(){
     $('.divtop').on('click', function(){
+    $('.odd').toggleClass('odd_on');
+
+    });
+});
+
+$(function(){
+    $('.divtop').on('click', function(){
+    $('.divtop').toggleClass('odd_on2');
+
+    });
+});
+
+$(function(){
+    $('.divtop').on('click', function(){
     $('.introbtn').toggleClass('btnflip');
 
     });
@@ -39,7 +53,4 @@ window.onscroll = function() {
 };
 
 var rellax = new Rellax('.rellax');
-
-
-
 
