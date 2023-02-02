@@ -1,4 +1,4 @@
-"homepage": "https://Pawlogates.github.io/Pawlogates"
+"homepage": "https://Pawlogates.github.io/Pawlogates.github.io"
 
 $(function(){
     $('.divtop').on('click', function(){
