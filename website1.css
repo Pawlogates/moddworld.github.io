@@ -1433,7 +1433,17 @@ overflow: hidden;
 
 }
 
+.odd_on {
 
+  padding-top: 100px;
+    
+  }
+
+  .odd_on2 {
+
+left: 20%;
+      
+    }
 
     @keyframes introrotate {
 
@@ -1497,6 +1507,4 @@ background-image: url(button1websiteremake.png);
   margin-right: 3%;
   transition-duration: 1s;
   }
-
-
   
