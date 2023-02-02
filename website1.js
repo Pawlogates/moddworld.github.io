@@ -1,3 +1,5 @@
+"homepage": "https://Pawlogates.github.io/Pawlogates"
+
 $(function(){
     $('.divtop').on('click', function(){
     $('.odd').toggleClass('odd_on');
