@@ -1,4 +1,3 @@
-
 $(function(){
     $('.divtop').on('click', function(){
     $('.odd').toggleClass('odd_on');
@@ -53,4 +52,11 @@ window.onscroll = function() {
 };
 
 var rellax = new Rellax('.rellax');
+
+
+
+
+
+
+
 
