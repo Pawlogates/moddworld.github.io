@@ -239,9 +239,9 @@ Exoddus levels:
 
 <script src="website1.js"></script>
 <script>
-function show(param_div_id){
-        document.getElementById('main_place').innerHTML = Here should be div from param;
-        }
+function show(param_div_id) {
+    document.getElementById('main_place').innerHTML = document.getElementById(param_div_id).innerHTML;
+  }
 </script>
 </body>
 </html>
