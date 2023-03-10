@@ -1132,9 +1132,10 @@ height: 120px;
       margin: auto;
       justify-content: center;
       flex-shrink: 0;
-      width: 80%;
+   
       border-radius: 10px;
-
+      padding: 50px;
+   
     }
     
     .inflex {
@@ -1153,8 +1154,21 @@ height: 120px;
 
     }
     
-    
-    .divtop {
+.whitebox {
+
+bottom: 0px;
+position: absolute;
+height: 100%;
+width: 100%;
+background-color: rgb(72, 0, 0);
+border-radius: 25px;
+
+animation: forwards 1s fade_choose;
+
+
+}
+
+  .divtop {
     
       background-color: rgba(255, 185, 56, 0.226);
       outline: 3px rgb(255, 191, 52) solid;
@@ -1185,6 +1199,7 @@ height: 120px;
       border-radius: 12px;
       outline-offset: 315px;
       margin: 50px;
+
       }
       
       .press2 {
@@ -1533,7 +1548,9 @@ display: inline-flex;
 height: 60px;
 width: 180px;
 text-align: center;
-margin: 10%;
+margin: 5%;
+z-index: 50;
+
 }
 
 .choose2 {
@@ -1541,16 +1558,26 @@ display: inline-flex;
 height: 60px;
 width: 180px;
 text-align: center;
-margin: 10%;
-  }
+margin: 5%;
+z-index: 55;
 
+}
 .choose3 {
-    display: inline-flex;
-    height: 60px;
-    width: 180px;
-    text-align: center;
-    margin: 10%;
-      }
+display: inline-flex;
+height: 60px;
+width: 180px;
+text-align: center;
+margin: 5%;
+z-index: 50;
 
+}
+
+@keyframes fade_choose {
+
+0% {opacity: 100%}
+
+100% {opacity: 0%}
+
+}
 
 
